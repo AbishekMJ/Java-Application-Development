@@ -6,5 +6,4 @@ public class UserInterface {
 		String Message = "Thank you for your order";
 System.out.println(Message);
 	}
-
 }
