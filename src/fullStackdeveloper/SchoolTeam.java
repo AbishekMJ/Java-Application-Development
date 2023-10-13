@@ -41,7 +41,7 @@ public class SchoolTeam {
         Scanner scanner = new Scanner(System.in);
         SchoolTeam formation = new SchoolTeam();
 
-        System.out.println("Enter the number of students: ");
+        System.out.println("Enter the number of students");
         int numStudents = scanner.nextInt();
         scanner.nextLine();  // Consume the newline
 
@@ -50,7 +50,7 @@ public class SchoolTeam {
             return;
         }
 
-        System.out.println("Enter the details: ");
+        System.out.println("Enter the details");
         for (int i = 0; i < numStudents; i++) {
             String details = scanner.nextLine();
             formation.addName(details);
