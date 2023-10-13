@@ -2,7 +2,7 @@ package fullStackdeveloper;
 
 import java.util.Scanner;
 
-	// Create a public interface BonusPoints with an abstract method calculateBonusPoints
+// Create a public interface BonusPoints with an abstract method calculateBonusPoints
 import java.util.Scanner;
 
 //Interface for calculating bonus points
